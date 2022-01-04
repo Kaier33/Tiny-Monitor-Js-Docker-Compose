@@ -1,10 +1,10 @@
 version: "3.8"
 
 services:
-  monit-js:
+  monit-js-node:
     # build: ./
     image: kaier33/monitjs-node-server:v0.1
-    container_name: monitjs-node-server
+    container_name: monit-js-node
     ports:
       - 8233:8233
     # volumes:
