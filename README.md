@@ -12,7 +12,7 @@ tiny monitor js的 测试版v0.1版本.
 ### 开启https
 不填则默认开启http.  
 请在 `docker-compose.yml`填入服务器存放域名证书文件夹的绝对路径.   
-证书包括 `*.key` 和 ( `*.pem` 或者 `*.crt`)
+证书包括 `*.key` 和 ( `*.cer` 或者 `*.crt`)
 
 ```
 services:
