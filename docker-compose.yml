@@ -7,8 +7,9 @@ services:
     container_name: monit-js-node
     ports:
       - 8233:8233
-    # volumes:
-    #   - ./:/monitjs-node-server
+    volumes:
+    # 这里填服务器存放证书的绝对路径
+      - .:/monitjs-node-server/ssl
     depends_on:
       - monit-js-db
       - monit-js-redis
