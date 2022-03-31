@@ -16,12 +16,11 @@ tiny monitor js的 测试版v0.1版本.
 mysql端口是:`2333`, 用户:`root`, 密码: `123456`,   
 库: `monitor`, 表: `error`
 
-### 开启https
-默认开启http.  
+### 开启https  
 请在 `docker-compose.yml`填入服务器存放域名证书文件夹的绝对路径.   
 证书包括 `*.key` 和 ( `*.cer` 或者 `*.crt`)
 
-```
+```yml
 services:
   monit-js-node:
     # build: ./
